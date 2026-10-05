@@ -1,0 +1,19 @@
+# Security & Environment variables
+.env
+*.env
+
+# Python & Backend
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+backend/tickets.db
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# System files
+.DS_Store
+Thumbs.db
