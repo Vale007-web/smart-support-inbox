@@ -137,11 +137,11 @@ Prerequisites:
     The application will be visible at: http://localhost:5173
 <br><br>
 
-Key API Endpoints
-Method, Endpoint, Description
-GET,/,API server health check
-POST,/tickets/,"It creates a new ticket, analyzes it with Gemini, and saves it to the DB"
-GET,/tickets/,Retrieve the list of all tickets in chronological order
+Key API Endpoints<br>
+Method, Endpoint, Description<br>
+GET,/,API server health check<br>
+POST,/tickets/,"It creates a new ticket, analyzes it with Gemini, and saves it to the DB"<br>
+GET,/tickets/,Retrieve the list of all tickets in chronological order<br>
 
 
 Future Developments (Roadmap)

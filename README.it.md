@@ -139,11 +139,11 @@ Prerequisiti:
 L'applicazione sarà visibile su: http://localhost:5173
 <br><br>
 
-Endpoint API Principali
-Metodo,Endpoint,Descrizione
-GET,/,Health check del server API
-POST,/tickets/,"Crea un nuovo ticket, lo analizza con Gemini e lo salva nel DB"
-GET,/tickets/,Recupera l'elenco di tutti i ticket in ordine cronologico
+Endpoint API Principali<br>
+Metodo,Endpoint,Descrizione<br>
+GET,/,Health check del server API<br>
+POST,/tickets/,"Crea un nuovo ticket, lo analizza con Gemini e lo salva nel DB"<br>
+GET,/tickets/,Recupera l'elenco di tutti i ticket in ordine cronologico<br>
 
 
 Sviluppi Futuri (Roadmap)
