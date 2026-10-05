@@ -108,13 +108,12 @@ Prerequisiti:
 - Python 3.10+
 - Node.js v18+
 - Chiave API di Google AI Studio (ottenibile gratuitamente)
-
+<br><br>
 
 1. Configurazione Backend
     1. Posizionati nella cartella del backend:
         `cd backend`
     2. Crea e attiva l'ambiente virtuale Python:
-        # Windows PowerShell
         `python -m venv venv`
         Su Windows: `.\venv\Scripts\activate`
         Su Mac/Linux: `source venv/bin/activate`
@@ -125,10 +124,10 @@ Prerequisiti:
     5. Avvia il server FastAPI:
         `python -m uvicorn main:app --reload`
 
-Il backend sarà attivo su: http://127.0.0.1:8000
-Documentazione Swagger UI: http://127.0.0.1:8000/docs
+    Il backend sarà attivo su: http://127.0.0.1:8000<br>
+    Documentazione Swagger UI: http://127.0.0.1:8000/docs
 
-
+<br>
 2. Configurazione Frontend
     1. Apri un nuovo terminale e posizionati nella cartella frontend:
         `cd frontend`
@@ -138,7 +137,7 @@ Documentazione Swagger UI: http://127.0.0.1:8000/docs
         `npm run dev`
 
 L'applicazione sarà visibile su: http://localhost:5173
-
+<br><br>
 
 Endpoint API Principali
 Metodo,Endpoint,Descrizione

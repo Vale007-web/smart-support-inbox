@@ -50,7 +50,7 @@ smart-support-inbox/
 
 ```mermaid
 graph TD
-    A[Utente / Browser] <-->|HTTP / React UI| B[Frontend: React + Vite]
+    A[User / Browser] <-->|HTTP / React UI| B[Frontend: React + Vite]
     B <-->|REST API / JSON| C[Backend: FastAPI]
     C <-->|SQLAlchemy ORM| D[(DB: SQLite)]
     C <-->|Automatic Retry / Exponential Backoff| E[Google Gemini AI API]
@@ -106,36 +106,36 @@ Prerequisites:
 - Python 3.10+
 - Node.js v18+
 - Google AI Studio API key (available for free)
+<br><br>
 
 1. Backend Setup
-1. Navigate to the backend folder:
-`cd backend`
-2. Create and activate the Python virtual environment:
-# Windows PowerShell
-`python -m venv venv`
-On Windows: `.\venv\Scripts\activate`
-On Mac/Linux: `source venv/bin/activate`
-3. Install dependencies:
-`python -m pip install fastapi uvicorn sqlalchemy pydantic python-dotenv google-genai`
-4. Create a .env file in the backend folder:
-`GEMINI_API_KEY=your_api_key_here`
-5. Start the FastAPI server:
-`python -m uvicorn main:app --reload`
+    1. Navigate to the backend folder:
+    `cd backend`
+    2. Create and activate the Python virtual environment:
+    `python -m venv venv`
+    On Windows: `.\venv\Scripts\activate`
+    On Mac/Linux: `source venv/bin/activate`
+    3. Install dependencies:
+    `python -m pip install fastapi uvicorn sqlalchemy pydantic python-dotenv google-genai`
+    4. Create a .env file in the backend folder:
+    `GEMINI_API_KEY=your_api_key_here`
+    5. Start the FastAPI server:
+    `python -m uvicorn main:app --reload`
 
-The backend will be running at: http://127.0.0.1:8000
-Swagger UI documentation: http://127.0.0.1:8000/docs
+    The backend will be running at: http://127.0.0.1:8000<br>
+    Swagger UI documentation: http://127.0.0.1:8000/docs
 
-
+<br>
 2. Frontend Setup
-1. Open a new terminal and navigate to the frontend folder:
-`cd frontend`
-2. Install Node.js dependencies:
-`npm install`
-3. Start the React development server:
-`npm run dev`
+    1. Open a new terminal and navigate to the frontend folder:
+    `cd frontend`
+    2. Install Node.js dependencies:
+    `npm install`
+    3. Start the React development server:
+    `npm run dev`
 
-The application will be visible at: http://localhost:5173
-
+    The application will be visible at: http://localhost:5173
+<br><br>
 
 Key API Endpoints
 Method, Endpoint, Description
